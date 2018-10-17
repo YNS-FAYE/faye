@@ -30,12 +30,11 @@ You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api
 
 ## Frontend
 
-Open up a new command line console so there are now **two** open. Navigate to the `frontend` directory.
+Open up a new command line console so there are now **two** open. Navigate to the `reactjs` directory.
 
 ```
-$ cd ~/Desktop
 $ cd yns-faye
-$ cd frontend
+$ cd reactjs
 ```
 
 Make sure React is already installed globally. If not `$ npm install -g create-react-app`.
