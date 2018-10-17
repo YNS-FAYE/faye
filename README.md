@@ -12,7 +12,7 @@ Clone the repo to your computer
 
 ```
 $ git clone https://github.com/YNS-FAYE/faye.git
-$ cd yns-faye
+$ cd faye
 ```
 
 ## Backend
@@ -33,7 +33,7 @@ You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api
 Open up a new command line console so there are now **two** open. Navigate to the `reactjs` directory.
 
 ```
-$ cd yns-faye
+$ cd faye
 $ cd reactjs
 ```
 
