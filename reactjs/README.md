@@ -3,14 +3,14 @@ Face recognition using AI
 for YNS Employees
 This project will use django rest api for backend and react js for frontend with implementation of neural network.
 
-# Local Setup
+# How to Install
 
 Python 3 and [Pipenv](https://docs.pipenv.org/) need to already be installed. If you need more complete local dev instructions, [see here](https://djangoforbeginners.com/initial-setup/).
 
 Clone the repo to your computer
 
 ```
-$ git clone https://github.com/wsvincent/django-rest-framework-react-tutorial.git
+$ git clone https://github.com/YNS-FAYE/faye.git
 $ cd yns-faye
 ```
 
