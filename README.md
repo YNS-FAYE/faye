@@ -17,13 +17,13 @@ $ cd yns-faye
 
 ## Backend
 
-Install the `Pipenv` packages and start a new shell. Then `cd` into the `backend` directory and run the local server.
+Install the `Pipenv` packages and start a new shell. Then `cd` into the `django` directory and run the local server.
 
 ```
-$ cd backend
+$ cd django
 $ pipenv install
 $ pipenv shell
-(backend) $ ./manage.py runserver
+(django) $ ./manage.py runserver
 ```
 
 You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api).
