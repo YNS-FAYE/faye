@@ -6,7 +6,7 @@ This project will use django rest api for backend and react js for frontend with
 
 # How to Install
 
-Python 3 and [Pipenv](https://docs.pipenv.org/) need to already be installed. If you need more complete local dev instructions, [see here](https://djangoforbeginners.com/initial-setup/).
+Python 3 https://www.python.org/downloads/windows/ check for x86-64 executable installer for 64 bit and for 32 bit x86
 
 Clone the repo to your computer
 
