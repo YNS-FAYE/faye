@@ -3,7 +3,7 @@ Face recognition using AI
 for YNS Employees
 This project will use django rest api for backend and react js for frontend with implementation of neural network.
 
-# How to Install
+# How to Install on Windows
 
 Python 3 and [Pipenv](https://docs.pipenv.org/) need to already be installed. If you need more complete local dev instructions, [see here](https://djangoforbeginners.com/initial-setup/).
 
