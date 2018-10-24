@@ -20,7 +20,7 @@ $ cd faye
 ## Backend
 ```
 $ cd django
-$ pip3 install pipenv
+$ pip install pipenv
 $ pipenv install
 Note: if problem in pipenv install your python 3 is not configure well try running  pipenv --python <your python path> install
 example: pipenv --python C:\Users\YNS\AppData\Local\Programs\Python\Python37\python.exe install
