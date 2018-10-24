@@ -8,6 +8,8 @@ This project will use django rest api for backend and react js for frontend with
 
 Python 3 https://www.python.org/downloads/windows/ check for x86-64 executable installer for 64 bit and for 32 bit x86
 
+Note: if not in your environmental variables, Locate your python path for example: C:\Users\YNS\AppData\Local\Programs\Python\Python37 and also C:\Users\YNS\AppData\Local\Programs\Python\Python37\Scripts
+
 Clone the repo to your computer
 
 ```
@@ -16,11 +18,9 @@ $ cd faye
 ```
 
 ## Backend
-
-Install the `Pipenv` packages and start a new shell. Then `cd` into the `django` directory and run the local server.
-
 ```
 $ cd django
+$ pip3 install pipenv
 $ pipenv install
 $ pipenv shell
 (django) $ ./manage.py runserver
