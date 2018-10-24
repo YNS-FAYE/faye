@@ -22,8 +22,10 @@ $ cd faye
 $ cd django
 $ pip3 install pipenv
 $ pipenv install
+Note: if problem in pipenv install your python 3 is not configure well try running  pipenv --python <your python path> install
+example: pipenv --python C:\Users\YNS\AppData\Local\Programs\Python\Python37\python.exe install
 $ pipenv shell
-(django) $ ./manage.py runserver
+(django-xxx) $ ./manage.py runserver or python manage.py runserver
 ```
 
 You can see the API now at [http://127.0.0.1:8000/api](http://127.0.0.1:8000/api).
