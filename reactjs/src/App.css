@@ -30,3 +30,124 @@
     transform: rotate(360deg);
   }
 }
+
+/* custom css */
+.flex-container{
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #efeff0;
+}
+
+.inner-element{
+  /* color: #aac3e3; */
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+
+.pulsate {
+  height: 80px;
+  -webkit-animation: bg_color_change 1s infinite alternate;
+  -moz-animation: bg_color_change 1s infinite alternate;
+  -ms-animation: bg_color_change 1s infinite alternate;
+  -o-animation: bg_color_change 1s infinite alternate;
+  animation: bg_color_change 1s infinite alternate;
+ }
+ .pulsate-text {
+  height: 80px;
+  -webkit-animation: color_change 1s infinite alternate;
+  -moz-animation: color_change 1s infinite alternate;
+  -ms-animation: color_change 1s infinite alternate;
+  -o-animation: color_change 1s infinite alternate;
+  animation: color_change 1s infinite alternate;
+ }
+ .panel-bottom {
+  position: absolute;
+  bottom: 5%;
+ }
+ @-webkit-keyframes bg_color_change {
+  from { background-color: #5a5aa8; }
+  to { background-color: #e9a826; }
+ }
+ @-moz-keyframes bg_color_change {
+  from { background-color: #5a5aa8; }
+  to { background-color: #e9a826; }
+ }
+ @-ms-keyframes bg_color_change {
+  from { background-color: #5a5aa8; }
+  to { background-color: #e9a826; }
+ }
+ @-o-keyframes bg_color_change {
+  from { background-color: #5a5aa8; }
+  to { background-color: #62AB38; }
+ }
+ @keyframes bg_color_change {
+  from { background-color: #5a5aa8; }
+  to { background-color: #62AB38; }
+ }
+
+ @-webkit-keyframes bcolor_change {
+  from { color: #5a5aa8; }
+  to { color: #e9a826; }
+ }
+ @-moz-keyframes bcolor_change {
+  from { color: #5a5aa8; }
+  to { color: #e9a826; }
+ }
+ @-ms-keyframes bcolor_change {
+  from { color: #5a5aa8; }
+  to { color: #e9a826; }
+ }
+ @-o-keyframes bcolor_change {
+  from { color: #5a5aa8; }
+  to { color: #62AB38; }
+ }
+ @keyframes bcolor_change {
+  from { color: #5a5aa8; }
+  to { color: #62AB38; }
+ }
+
+
+ 
+.line1, .line2, .line3, .line4
+{
+	stroke-dasharray:2300;
+	stroke-dashoffset:2300;
+  animation: dash 3.5s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+.line1 {
+  fill:none;stroke:#6873b0;stroke-width:3;stroke-miterlimit:3;
+}
+
+.line3 {
+  fill:none;stroke:#62AB38;stroke-width:3;stroke-miterlimit:3;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#Layer_1 {
+  position: absolute;
+  margin-top: -80px;
+}
+
+.button-start {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: #fff;
+  border: none;
+}
